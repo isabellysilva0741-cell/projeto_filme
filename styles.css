@@ -41,3 +41,37 @@ nav ul {
 .galeria-grid img {
   width: 100%;
 }
+
+.hero-image{
+ width: 100%;
+ height: 500px;
+}
+
+.nav-link:hover{
+ color: rgb(171, 122, 218);
+}
+
+.redes-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+
+  }
+}
+
+
+h3{
+ text-align: center;
+
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
+
+footer p:hover{
+  color: blueviolet;
+}
